@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 /**
  * @author: Sukhmanbir Kaur
  * @date: June 1, 2016
- * @versiom: 0.0.1 - added the SetActivePage method
+ * @version: 0.0.1 - added the SetActivePage method
  */
 
 namespace Portfolio
@@ -32,6 +32,15 @@ namespace Portfolio
             {
                 case "Home Page":
                     home.Attributes.Add("class", "active");
+                    break;
+                case "About Me":
+                    about.Attributes.Add("class", "active");
+                    break;
+                case "Projects":
+                    projects.Attributes.Add("class", "active");
+                    break;
+                case "Services":
+                    services.Attributes.Add("class", "active");
                     break;
                 case "Contact":
                     contact.Attributes.Add("class", "active");

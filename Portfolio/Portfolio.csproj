@@ -70,6 +70,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AboutMe.aspx" />
+    <Content Include="Assets\images\bugatti.png" />
+    <Content Include="Assets\images\cars.png" />
+    <Content Include="Assets\images\logo-1.png" />
+    <Content Include="Assets\images\logo.png" />
+    <Content Include="Assets\images\s1.png" />
+    <Content Include="Assets\images\s2.png" />
+    <Content Include="Assets\images\s3.png" />
+    <Content Include="Assets\images\s4.png" />
+    <Content Include="Assets\images\s5.png" />
+    <Content Include="Assets\images\s6.png" />
+    <Content Include="Assets\images\subscribers.png" />
+    <Content Include="Projects.aspx" />
+    <Content Include="Services.aspx" />
     <Content Include="User_Controls\Jumbotron.ascx" />
     <Content Include="User_Controls\Navbar.ascx" />
     <Content Include="packages.config" />
@@ -116,6 +130,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutMe.aspx.cs">
+      <DependentUpon>AboutMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutMe.aspx.designer.cs">
+      <DependentUpon>AboutMe.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -129,6 +150,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Projects.aspx.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Projects.aspx.designer.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
     </Compile>
     <Compile Include="User_Controls\Jumbotron.ascx.cs">
       <DependentUpon>Jumbotron.ascx</DependentUpon>
@@ -165,7 +200,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>53172</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

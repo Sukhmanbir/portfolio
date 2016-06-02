@@ -1,1 +1,76 @@
 ﻿/* custom css styles goes here */
+
+/*
+    Filename : app.css
+    Author name: Sukhmanbir Kaur
+    Website name: Portfolio
+    Description: This is custom style sheet of the website
+*/
+
+.navbar-brand{
+    padding: 7px 15px;
+}
+
+.intro{
+    margin-top: 20px;
+}
+
+.project-items {
+    margin-top: 40px;
+}
+
+.project-items .item img {
+    width: 200px;
+    height: 200px;
+}
+
+.services {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%; 
+    color: #333;
+    padding-bottom: 40px;
+}
+
+.item {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.items-heading {
+    margin-bottom: 50px;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 30px;
+    background-color: #000;
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social li{
+    display: inline;
+    padding: 0 15px;
+    font-size: 2em;
+}
+
+.social li a {
+    color: #fff;
+}
+
+.social li a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.copyright {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
